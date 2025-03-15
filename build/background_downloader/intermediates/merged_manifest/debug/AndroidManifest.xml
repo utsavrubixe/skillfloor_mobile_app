@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.bbflight.background_downloader" >
+
+    <uses-sdk android:minSdkVersion="24" />
+
+    <application>
+        <receiver
+            android:name="com.bbflight.background_downloader.NotificationRcvr"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.bbflight.background_downloader.cancelActive" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.bbflight.background_downloader.pause" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.bbflight.background_downloader.resume" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name="com.bbflight.background_downloader.OpenFileProvider"
+            android:authorities="${applicationId}.com.bbflight.background_downloader.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true"
+            tools:replace="android:authorities" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/bgd_file_paths" />
+        </provider>
+    </application>
+
+</manifest>

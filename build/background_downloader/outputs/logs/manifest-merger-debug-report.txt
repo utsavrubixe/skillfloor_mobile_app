@@ -1,0 +1,71 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Datamites\AppData\Local\Pub\Cache\hosted\pub.dev\background_downloader-7.10.0\android\src\main\AndroidManifest.xml:1:1-30:12
+INJECTED from C:\Users\Datamites\AppData\Local\Pub\Cache\hosted\pub.dev\background_downloader-7.10.0\android\src\main\AndroidManifest.xml:1:1-30:12
+INJECTED from C:\Users\Datamites\AppData\Local\Pub\Cache\hosted\pub.dev\background_downloader-7.10.0\android\src\main\AndroidManifest.xml:1:1-30:12
+	package
+		INJECTED from C:\Users\Datamites\AppData\Local\Pub\Cache\hosted\pub.dev\background_downloader-7.10.0\android\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Datamites\AppData\Local\Pub\Cache\hosted\pub.dev\background_downloader-7.10.0\android\src\main\AndroidManifest.xml:1:1-30:12
+		INJECTED from C:\Users\Datamites\AppData\Local\Pub\Cache\hosted\pub.dev\background_downloader-7.10.0\android\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\Datamites\AppData\Local\Pub\Cache\hosted\pub.dev\background_downloader-7.10.0\android\src\main\AndroidManifest.xml:1:11-57
+	xmlns:android
+		ADDED from C:\Users\Datamites\AppData\Local\Pub\Cache\hosted\pub.dev\background_downloader-7.10.0\android\src\main\AndroidManifest.xml:2:5-63
+application
+ADDED from C:\Users\Datamites\AppData\Local\Pub\Cache\hosted\pub.dev\background_downloader-7.10.0\android\src\main\AndroidManifest.xml:4:5-29:19
+receiver#com.bbflight.background_downloader.NotificationRcvr
+ADDED from C:\Users\Datamites\AppData\Local\Pub\Cache\hosted\pub.dev\background_downloader-7.10.0\android\src\main\AndroidManifest.xml:6:9-16:20
+	android:exported
+		ADDED from C:\Users\Datamites\AppData\Local\Pub\Cache\hosted\pub.dev\background_downloader-7.10.0\android\src\main\AndroidManifest.xml:6:51-75
+	android:name
+		ADDED from C:\Users\Datamites\AppData\Local\Pub\Cache\hosted\pub.dev\background_downloader-7.10.0\android\src\main\AndroidManifest.xml:6:19-50
+intent-filter#action:name:com.bbflight.background_downloader.cancelActive
+ADDED from C:\Users\Datamites\AppData\Local\Pub\Cache\hosted\pub.dev\background_downloader-7.10.0\android\src\main\AndroidManifest.xml:7:13-9:29
+action#com.bbflight.background_downloader.cancelActive
+ADDED from C:\Users\Datamites\AppData\Local\Pub\Cache\hosted\pub.dev\background_downloader-7.10.0\android\src\main\AndroidManifest.xml:8:17-90
+	android:name
+		ADDED from C:\Users\Datamites\AppData\Local\Pub\Cache\hosted\pub.dev\background_downloader-7.10.0\android\src\main\AndroidManifest.xml:8:25-87
+intent-filter#action:name:com.bbflight.background_downloader.pause
+ADDED from C:\Users\Datamites\AppData\Local\Pub\Cache\hosted\pub.dev\background_downloader-7.10.0\android\src\main\AndroidManifest.xml:10:13-12:29
+action#com.bbflight.background_downloader.pause
+ADDED from C:\Users\Datamites\AppData\Local\Pub\Cache\hosted\pub.dev\background_downloader-7.10.0\android\src\main\AndroidManifest.xml:11:17-83
+	android:name
+		ADDED from C:\Users\Datamites\AppData\Local\Pub\Cache\hosted\pub.dev\background_downloader-7.10.0\android\src\main\AndroidManifest.xml:11:25-80
+intent-filter#action:name:com.bbflight.background_downloader.resume
+ADDED from C:\Users\Datamites\AppData\Local\Pub\Cache\hosted\pub.dev\background_downloader-7.10.0\android\src\main\AndroidManifest.xml:13:13-15:29
+action#com.bbflight.background_downloader.resume
+ADDED from C:\Users\Datamites\AppData\Local\Pub\Cache\hosted\pub.dev\background_downloader-7.10.0\android\src\main\AndroidManifest.xml:14:17-84
+	android:name
+		ADDED from C:\Users\Datamites\AppData\Local\Pub\Cache\hosted\pub.dev\background_downloader-7.10.0\android\src\main\AndroidManifest.xml:14:25-81
+provider#com.bbflight.background_downloader.OpenFileProvider
+ADDED from C:\Users\Datamites\AppData\Local\Pub\Cache\hosted\pub.dev\background_downloader-7.10.0\android\src\main\AndroidManifest.xml:18:9-27:20
+	android:grantUriPermissions
+		ADDED from C:\Users\Datamites\AppData\Local\Pub\Cache\hosted\pub.dev\background_downloader-7.10.0\android\src\main\AndroidManifest.xml:22:13-47
+	android:authorities
+		ADDED from C:\Users\Datamites\AppData\Local\Pub\Cache\hosted\pub.dev\background_downloader-7.10.0\android\src\main\AndroidManifest.xml:20:13-99
+	android:exported
+		ADDED from C:\Users\Datamites\AppData\Local\Pub\Cache\hosted\pub.dev\background_downloader-7.10.0\android\src\main\AndroidManifest.xml:21:13-37
+	tools:replace
+		ADDED from C:\Users\Datamites\AppData\Local\Pub\Cache\hosted\pub.dev\background_downloader-7.10.0\android\src\main\AndroidManifest.xml:23:13-48
+	android:name
+		ADDED from C:\Users\Datamites\AppData\Local\Pub\Cache\hosted\pub.dev\background_downloader-7.10.0\android\src\main\AndroidManifest.xml:19:13-79
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from C:\Users\Datamites\AppData\Local\Pub\Cache\hosted\pub.dev\background_downloader-7.10.0\android\src\main\AndroidManifest.xml:24:13-26:58
+	android:resource
+		ADDED from C:\Users\Datamites\AppData\Local\Pub\Cache\hosted\pub.dev\background_downloader-7.10.0\android\src\main\AndroidManifest.xml:26:17-55
+	android:name
+		ADDED from C:\Users\Datamites\AppData\Local\Pub\Cache\hosted\pub.dev\background_downloader-7.10.0\android\src\main\AndroidManifest.xml:25:17-67
+uses-sdk
+INJECTED from C:\Users\Datamites\AppData\Local\Pub\Cache\hosted\pub.dev\background_downloader-7.10.0\android\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Datamites\AppData\Local\Pub\Cache\hosted\pub.dev\background_downloader-7.10.0\android\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Datamites\AppData\Local\Pub\Cache\hosted\pub.dev\background_downloader-7.10.0\android\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Datamites\AppData\Local\Pub\Cache\hosted\pub.dev\background_downloader-7.10.0\android\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Datamites\AppData\Local\Pub\Cache\hosted\pub.dev\background_downloader-7.10.0\android\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Datamites\AppData\Local\Pub\Cache\hosted\pub.dev\background_downloader-7.10.0\android\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Datamites\AppData\Local\Pub\Cache\hosted\pub.dev\background_downloader-7.10.0\android\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Datamites\AppData\Local\Pub\Cache\hosted\pub.dev\background_downloader-7.10.0\android\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Datamites\AppData\Local\Pub\Cache\hosted\pub.dev\background_downloader-7.10.0\android\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Datamites\AppData\Local\Pub\Cache\hosted\pub.dev\background_downloader-7.10.0\android\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Datamites\AppData\Local\Pub\Cache\hosted\pub.dev\background_downloader-7.10.0\android\src\main\AndroidManifest.xml
